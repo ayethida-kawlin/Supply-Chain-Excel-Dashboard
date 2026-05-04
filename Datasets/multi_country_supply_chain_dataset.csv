@@ -1,0 +1,501 @@
+Product ID,Product Name,Category,Country,City / Warehouse,Supplier,Date,Opening Stock,Units Sold,Units Received,Closing Stock,Reorder Level,Unit Cost,Lead Time (days),Damaged Units,Stock Status,Forecast Demand,Inventory Value
+P005,Keyboard,Electronics,India,Mumbai,Supplier A,2024-01-01,287,14,3,276,45,601,15,5,Healthy,67,165876
+P001,Laptop,Electronics,India,Delhi,Supplier A,2024-01-02,246,37,61,270,49,376,4,10,Healthy,17,101520
+P003,Tablet,Electronics,India,Delhi,Supplier B,2024-01-03,132,38,67,161,100,587,12,10,Healthy,22,94507
+P005,Keyboard,Electronics,USA,Los Angeles,Supplier C,2024-01-04,257,32,59,284,49,1366,13,8,Healthy,26,387944
+P004,Monitor,Electronics,India,Mumbai,Supplier C,2024-01-05,158,32,37,163,55,1009,7,7,Healthy,28,164467
+P001,Laptop,Electronics,USA,Los Angeles,Supplier B,2024-01-06,51,48,2,5,68,1386,15,6,Low,55,6930
+P005,Keyboard,Electronics,Thailand,Bangkok,Supplier A,2024-01-07,87,50,21,58,89,713,7,4,Low,38,41354
+P004,Monitor,Electronics,Germany,Berlin,Supplier A,2024-01-08,211,5,17,223,41,1058,8,2,Healthy,70,235934
+P002,Phone,Electronics,China,Shanghai,Supplier A,2024-01-09,113,18,64,159,43,712,14,7,Healthy,22,113208
+P004,Monitor,Electronics,Thailand,Bangkok,Supplier A,2024-01-10,265,36,1,230,68,265,10,5,Healthy,70,60950
+P005,Keyboard,Electronics,Germany,Munich,Supplier B,2024-01-11,232,44,80,268,60,1178,8,2,Healthy,29,315704
+P005,Keyboard,Electronics,India,Mumbai,Supplier A,2024-01-12,70,22,0,48,46,1147,5,10,Healthy,40,55056
+P001,Laptop,Electronics,Germany,Berlin,Supplier C,2024-01-13,176,37,65,204,66,1061,4,4,Healthy,42,216444
+P004,Monitor,Electronics,Thailand,Bangkok,Supplier A,2024-01-14,256,44,70,282,71,862,5,2,Healthy,52,243084
+P005,Keyboard,Electronics,India,Delhi,Supplier C,2024-01-15,95,59,42,78,60,310,9,10,Healthy,10,24180
+P004,Monitor,Electronics,USA,Los Angeles,Supplier A,2024-01-16,65,29,29,65,73,452,11,1,Low,60,29380
+P005,Keyboard,Electronics,USA,Los Angeles,Supplier B,2024-01-17,285,6,23,302,58,1426,10,4,Healthy,67,430652
+P005,Keyboard,Electronics,Thailand,Chiang Mai,Supplier B,2024-01-18,57,50,51,58,78,62,13,6,Low,23,3596
+P005,Keyboard,Electronics,Germany,Munich,Supplier A,2024-01-19,281,29,12,264,62,1353,14,9,Healthy,69,357192
+P005,Keyboard,Electronics,Thailand,Bangkok,Supplier A,2024-01-20,246,6,36,276,94,1131,7,9,Healthy,49,312156
+P001,Laptop,Electronics,India,Delhi,Supplier B,2024-01-21,250,27,26,249,73,66,6,6,Healthy,15,16434
+P003,Tablet,Electronics,China,Shanghai,Supplier B,2024-01-22,246,52,37,231,85,63,4,9,Healthy,54,14553
+P002,Phone,Electronics,Germany,Berlin,Supplier A,2024-01-23,241,51,55,245,72,606,5,5,Healthy,25,148470
+P003,Tablet,Electronics,China,Shanghai,Supplier B,2024-01-24,230,10,24,244,54,177,9,3,Healthy,60,43188
+P003,Tablet,Electronics,USA,New York,Supplier B,2024-01-25,82,7,57,132,45,645,13,3,Healthy,32,85140
+P002,Phone,Electronics,India,Delhi,Supplier C,2024-01-26,250,53,54,251,76,1266,10,6,Healthy,45,317766
+P001,Laptop,Electronics,USA,New York,Supplier B,2024-01-27,273,54,77,296,53,1248,4,6,Healthy,29,369408
+P005,Keyboard,Electronics,USA,New York,Supplier B,2024-01-28,135,22,1,114,99,583,13,6,Healthy,29,66462
+P002,Phone,Electronics,India,Delhi,Supplier A,2024-01-29,55,55,36,36,49,1066,10,3,Low,24,38376
+P001,Laptop,Electronics,USA,Los Angeles,Supplier C,2024-01-30,210,27,2,185,80,151,2,1,Healthy,28,27935
+P005,Keyboard,Electronics,Germany,Munich,Supplier A,2024-01-31,249,42,12,219,44,898,15,0,Healthy,31,196662
+P002,Phone,Electronics,China,Shanghai,Supplier A,2024-02-01,206,22,27,211,65,1002,11,8,Healthy,29,211422
+P002,Phone,Electronics,India,Delhi,Supplier C,2024-02-02,296,42,37,291,91,202,11,3,Healthy,18,58782
+P005,Keyboard,Electronics,Thailand,Bangkok,Supplier C,2024-02-03,253,37,9,225,84,597,12,9,Healthy,58,134325
+P003,Tablet,Electronics,China,Shenzhen,Supplier C,2024-02-04,200,22,56,234,97,1102,15,9,Healthy,21,257868
+P002,Phone,Electronics,India,Delhi,Supplier C,2024-02-05,91,17,65,139,83,465,4,5,Healthy,13,64635
+P005,Keyboard,Electronics,USA,Los Angeles,Supplier A,2024-02-06,241,40,58,259,88,1433,10,3,Healthy,33,371147
+P005,Keyboard,Electronics,USA,New York,Supplier A,2024-02-07,288,45,45,288,48,804,11,9,Healthy,67,231552
+P005,Keyboard,Electronics,Germany,Berlin,Supplier C,2024-02-08,59,42,44,61,88,332,2,9,Low,30,20252
+P005,Keyboard,Electronics,Germany,Munich,Supplier C,2024-02-09,216,53,71,234,70,609,10,0,Healthy,14,142506
+P004,Monitor,Electronics,India,Delhi,Supplier A,2024-02-10,131,17,37,151,60,196,6,7,Healthy,50,29596
+P005,Keyboard,Electronics,USA,New York,Supplier B,2024-02-11,267,5,35,297,81,707,11,10,Healthy,31,209979
+P005,Keyboard,Electronics,Germany,Munich,Supplier A,2024-02-12,99,38,78,139,51,802,6,7,Healthy,60,111478
+P005,Keyboard,Electronics,USA,Los Angeles,Supplier A,2024-02-13,89,44,74,119,72,905,5,4,Healthy,51,107695
+P005,Keyboard,Electronics,China,Shanghai,Supplier C,2024-02-14,270,50,32,252,79,930,6,9,Healthy,68,234360
+P001,Laptop,Electronics,Germany,Munich,Supplier C,2024-02-15,121,45,34,110,87,1231,3,3,Healthy,21,135410
+P002,Phone,Electronics,Thailand,Chiang Mai,Supplier C,2024-02-16,126,12,36,150,62,1279,9,1,Healthy,18,191850
+P001,Laptop,Electronics,India,Mumbai,Supplier B,2024-02-17,143,36,32,139,78,678,5,4,Healthy,16,94242
+P002,Phone,Electronics,USA,New York,Supplier A,2024-02-18,197,55,27,169,86,403,10,6,Healthy,20,68107
+P003,Tablet,Electronics,India,Mumbai,Supplier B,2024-02-19,142,9,47,180,49,1296,12,2,Healthy,67,233280
+P001,Laptop,Electronics,USA,Los Angeles,Supplier B,2024-02-20,252,42,48,258,59,489,14,10,Healthy,39,126162
+P002,Phone,Electronics,Thailand,Chiang Mai,Supplier A,2024-02-21,129,11,54,172,64,154,13,4,Healthy,68,26488
+P005,Keyboard,Electronics,USA,Los Angeles,Supplier C,2024-02-22,232,43,45,234,46,462,14,10,Healthy,63,108108
+P002,Phone,Electronics,Germany,Berlin,Supplier C,2024-02-23,285,25,45,305,82,786,11,7,Healthy,36,239730
+P003,Tablet,Electronics,Thailand,Bangkok,Supplier C,2024-02-24,149,27,23,145,50,1180,12,3,Healthy,11,171100
+P004,Monitor,Electronics,Thailand,Bangkok,Supplier C,2024-02-25,153,41,44,156,51,595,2,10,Healthy,24,92820
+P004,Monitor,Electronics,China,Shanghai,Supplier A,2024-02-26,115,23,30,122,61,710,8,7,Healthy,10,86620
+P004,Monitor,Electronics,Thailand,Bangkok,Supplier C,2024-02-27,252,43,49,258,47,231,5,10,Healthy,53,59598
+P002,Phone,Electronics,China,Shanghai,Supplier C,2024-02-28,105,16,13,102,49,617,14,3,Healthy,65,62934
+P003,Tablet,Electronics,India,Mumbai,Supplier A,2024-02-29,119,44,21,96,69,565,8,0,Healthy,22,54240
+P003,Tablet,Electronics,India,Mumbai,Supplier A,2024-03-01,141,50,34,125,64,1348,3,7,Healthy,65,168500
+P005,Keyboard,Electronics,India,Delhi,Supplier C,2024-03-02,121,41,74,154,95,83,8,9,Healthy,19,12782
+P001,Laptop,Electronics,China,Shanghai,Supplier A,2024-03-03,261,46,74,289,61,1137,9,2,Healthy,56,328593
+P004,Monitor,Electronics,Thailand,Chiang Mai,Supplier B,2024-03-04,271,33,5,243,69,293,8,2,Healthy,51,71199
+P005,Keyboard,Electronics,India,Delhi,Supplier B,2024-03-05,126,53,27,100,81,817,4,3,Healthy,60,81700
+P004,Monitor,Electronics,India,Mumbai,Supplier B,2024-03-06,188,20,48,216,46,875,12,9,Healthy,56,189000
+P004,Monitor,Electronics,Thailand,Chiang Mai,Supplier B,2024-03-07,231,59,38,210,82,167,10,9,Healthy,44,35070
+P003,Tablet,Electronics,India,Mumbai,Supplier B,2024-03-08,120,8,37,149,90,1469,13,0,Healthy,41,218881
+P004,Monitor,Electronics,India,Delhi,Supplier A,2024-03-09,269,51,69,287,53,406,11,10,Healthy,29,116522
+P004,Monitor,Electronics,China,Shanghai,Supplier B,2024-03-10,251,21,50,280,44,1191,5,4,Healthy,28,333480
+P005,Keyboard,Electronics,China,Shanghai,Supplier A,2024-03-11,156,21,55,190,77,999,10,1,Healthy,61,189810
+P005,Keyboard,Electronics,India,Delhi,Supplier A,2024-03-12,85,5,1,81,54,548,12,2,Healthy,29,44388
+P002,Phone,Electronics,India,Delhi,Supplier B,2024-03-13,197,7,20,210,54,179,14,1,Healthy,65,37590
+P002,Phone,Electronics,India,Mumbai,Supplier B,2024-03-14,203,46,44,201,46,643,13,0,Healthy,65,129243
+P002,Phone,Electronics,Thailand,Chiang Mai,Supplier A,2024-03-15,184,27,30,187,45,1398,3,10,Healthy,21,261426
+P003,Tablet,Electronics,USA,New York,Supplier A,2024-03-16,223,29,55,249,86,881,13,2,Healthy,30,219369
+P005,Keyboard,Electronics,USA,Los Angeles,Supplier C,2024-03-17,76,53,35,58,90,1427,7,3,Low,44,82766
+P002,Phone,Electronics,India,Mumbai,Supplier A,2024-03-18,196,13,77,260,82,342,7,2,Healthy,40,88920
+P002,Phone,Electronics,China,Shanghai,Supplier A,2024-03-19,200,28,35,207,52,120,8,4,Healthy,11,24840
+P002,Phone,Electronics,Thailand,Chiang Mai,Supplier C,2024-03-20,280,9,44,315,95,770,9,8,Healthy,66,242550
+P005,Keyboard,Electronics,Thailand,Bangkok,Supplier C,2024-03-21,247,45,73,275,65,529,8,6,Healthy,12,145475
+P005,Keyboard,Electronics,Germany,Berlin,Supplier A,2024-03-22,169,51,9,127,44,225,2,7,Healthy,12,28575
+P005,Keyboard,Electronics,Germany,Munich,Supplier A,2024-03-23,207,14,22,215,95,984,9,2,Healthy,64,211560
+P005,Keyboard,Electronics,USA,Los Angeles,Supplier A,2024-03-24,217,11,69,275,70,555,11,6,Healthy,28,152625
+P003,Tablet,Electronics,USA,Los Angeles,Supplier C,2024-03-25,172,36,77,213,96,1202,4,10,Healthy,47,256026
+P001,Laptop,Electronics,Thailand,Chiang Mai,Supplier A,2024-03-26,149,28,49,170,91,258,13,7,Healthy,45,43860
+P001,Laptop,Electronics,China,Shanghai,Supplier C,2024-03-27,216,19,19,216,100,942,8,5,Healthy,51,203472
+P001,Laptop,Electronics,China,Shenzhen,Supplier C,2024-03-28,200,60,48,188,71,684,10,0,Healthy,12,128592
+P003,Tablet,Electronics,USA,Los Angeles,Supplier B,2024-03-29,128,27,64,165,86,1162,2,5,Healthy,29,191730
+P001,Laptop,Electronics,Germany,Berlin,Supplier B,2024-03-30,143,21,64,186,57,903,5,3,Healthy,15,167958
+P005,Keyboard,Electronics,Germany,Berlin,Supplier A,2024-03-31,222,39,28,211,100,466,4,0,Healthy,24,98326
+P001,Laptop,Electronics,China,Shanghai,Supplier A,2024-04-01,122,46,64,140,66,204,6,4,Healthy,69,28560
+P004,Monitor,Electronics,USA,New York,Supplier A,2024-04-02,228,24,7,211,99,756,12,5,Healthy,42,159516
+P001,Laptop,Electronics,India,Delhi,Supplier B,2024-04-03,258,32,14,240,86,1000,3,10,Healthy,63,240000
+P002,Phone,Electronics,Thailand,Chiang Mai,Supplier A,2024-04-04,273,28,2,247,82,100,10,4,Healthy,48,24700
+P005,Keyboard,Electronics,Germany,Munich,Supplier A,2024-04-05,210,59,73,224,61,1422,9,2,Healthy,17,318528
+P005,Keyboard,Electronics,China,Shenzhen,Supplier A,2024-04-06,287,16,10,281,88,864,14,3,Healthy,51,242784
+P005,Keyboard,Electronics,USA,New York,Supplier A,2024-04-07,109,31,57,135,43,680,11,1,Healthy,67,91800
+P001,Laptop,Electronics,Germany,Munich,Supplier B,2024-04-08,202,59,42,185,47,998,8,6,Healthy,48,184630
+P001,Laptop,Electronics,India,Mumbai,Supplier C,2024-04-09,67,53,52,66,86,1391,5,7,Low,40,91806
+P004,Monitor,Electronics,Germany,Munich,Supplier A,2024-04-10,224,43,50,231,99,457,15,5,Healthy,21,105567
+P004,Monitor,Electronics,Thailand,Chiang Mai,Supplier B,2024-04-11,155,30,15,140,59,266,13,6,Healthy,63,37240
+P001,Laptop,Electronics,Thailand,Chiang Mai,Supplier A,2024-04-12,111,52,26,85,64,331,13,0,Healthy,68,28135
+P005,Keyboard,Electronics,Thailand,Chiang Mai,Supplier B,2024-04-13,226,12,43,257,54,1176,13,4,Healthy,10,302232
+P001,Laptop,Electronics,India,Delhi,Supplier A,2024-04-14,156,59,73,170,59,140,4,10,Healthy,63,23800
+P001,Laptop,Electronics,China,Shenzhen,Supplier A,2024-04-15,223,14,44,253,48,324,4,2,Healthy,19,81972
+P003,Tablet,Electronics,China,Shenzhen,Supplier B,2024-04-16,112,32,17,97,91,881,11,7,Healthy,66,85457
+P003,Tablet,Electronics,China,Shanghai,Supplier A,2024-04-17,117,44,33,106,51,243,10,10,Healthy,19,25758
+P005,Keyboard,Electronics,Thailand,Bangkok,Supplier C,2024-04-18,200,34,27,193,84,448,15,2,Healthy,49,86464
+P005,Keyboard,Electronics,Thailand,Bangkok,Supplier A,2024-04-19,93,21,62,134,82,815,15,7,Healthy,30,109210
+P003,Tablet,Electronics,India,Mumbai,Supplier B,2024-04-20,70,23,48,95,67,244,12,6,Healthy,26,23180
+P005,Keyboard,Electronics,Thailand,Bangkok,Supplier C,2024-04-21,132,45,69,156,76,482,3,10,Healthy,60,75192
+P004,Monitor,Electronics,India,Delhi,Supplier C,2024-04-22,75,17,48,106,67,655,12,7,Healthy,43,69430
+P001,Laptop,Electronics,Thailand,Bangkok,Supplier C,2024-04-23,103,40,27,90,84,54,14,3,Healthy,35,4860
+P002,Phone,Electronics,Germany,Munich,Supplier C,2024-04-24,75,38,68,105,85,56,14,2,Healthy,50,5880
+P005,Keyboard,Electronics,Thailand,Chiang Mai,Supplier C,2024-04-25,193,56,11,148,44,943,15,3,Healthy,47,139564
+P004,Monitor,Electronics,USA,New York,Supplier B,2024-04-26,271,58,23,236,87,741,13,2,Healthy,52,174876
+P003,Tablet,Electronics,Germany,Munich,Supplier B,2024-04-27,147,15,68,200,70,520,9,5,Healthy,13,104000
+P005,Keyboard,Electronics,Thailand,Bangkok,Supplier C,2024-04-28,229,52,46,223,51,1043,11,9,Healthy,12,232589
+P004,Monitor,Electronics,Thailand,Bangkok,Supplier B,2024-04-29,167,21,3,149,78,749,8,5,Healthy,28,111601
+P003,Tablet,Electronics,Thailand,Bangkok,Supplier B,2024-01-01,223,40,27,210,51,918,9,4,Healthy,15,192780
+P004,Monitor,Electronics,USA,New York,Supplier C,2024-01-02,203,53,32,182,65,1288,7,4,Healthy,57,234416
+P005,Keyboard,Electronics,USA,New York,Supplier A,2024-01-03,88,30,32,90,91,1313,14,5,Low,44,118170
+P003,Tablet,Electronics,USA,New York,Supplier C,2024-01-04,70,9,32,93,81,1110,15,0,Healthy,27,103230
+P004,Monitor,Electronics,USA,New York,Supplier B,2024-01-05,291,21,70,340,63,282,14,8,Healthy,23,95880
+P004,Monitor,Electronics,Germany,Berlin,Supplier B,2024-01-06,191,26,62,227,50,423,10,7,Healthy,63,96021
+P005,Keyboard,Electronics,Thailand,Chiang Mai,Supplier A,2024-01-07,161,15,43,189,71,815,8,8,Healthy,22,154035
+P005,Keyboard,Electronics,Germany,Munich,Supplier A,2024-01-08,175,50,41,166,60,1440,2,10,Healthy,25,239040
+P001,Laptop,Electronics,USA,New York,Supplier C,2024-01-09,76,31,16,61,91,504,6,0,Low,66,30744
+P003,Tablet,Electronics,India,Delhi,Supplier A,2024-01-10,111,40,49,120,94,1424,10,8,Healthy,51,170880
+P003,Tablet,Electronics,India,Mumbai,Supplier A,2024-01-11,232,51,54,235,61,1167,13,6,Healthy,32,274245
+P002,Phone,Electronics,USA,New York,Supplier A,2024-01-12,271,60,15,226,54,991,12,7,Healthy,42,223966
+P002,Phone,Electronics,Germany,Munich,Supplier C,2024-01-13,158,22,6,142,56,1076,4,9,Healthy,12,152792
+P001,Laptop,Electronics,India,Delhi,Supplier B,2024-01-14,293,53,49,289,99,920,8,3,Healthy,53,265880
+P002,Phone,Electronics,USA,New York,Supplier A,2024-01-15,78,28,21,71,86,892,8,10,Low,12,63332
+P005,Keyboard,Electronics,Germany,Berlin,Supplier B,2024-01-16,211,26,76,261,86,1134,13,5,Healthy,29,295974
+P002,Phone,Electronics,India,Mumbai,Supplier C,2024-01-17,236,6,53,283,47,518,14,9,Healthy,63,146594
+P004,Monitor,Electronics,China,Shanghai,Supplier C,2024-01-18,83,38,70,115,64,983,14,10,Healthy,57,113045
+P001,Laptop,Electronics,USA,New York,Supplier C,2024-01-19,216,11,45,250,83,1022,3,0,Healthy,32,255500
+P002,Phone,Electronics,Germany,Munich,Supplier A,2024-01-20,100,51,59,108,95,100,14,6,Healthy,32,10800
+P003,Tablet,Electronics,India,Delhi,Supplier C,2024-01-21,193,39,59,213,96,1268,11,2,Healthy,68,270084
+P001,Laptop,Electronics,USA,New York,Supplier A,2024-01-22,79,44,29,64,91,714,14,10,Low,36,45696
+P001,Laptop,Electronics,Thailand,Chiang Mai,Supplier A,2024-01-23,265,32,60,293,41,1087,8,8,Healthy,10,318491
+P001,Laptop,Electronics,India,Mumbai,Supplier A,2024-01-24,233,26,79,286,55,125,13,4,Healthy,69,35750
+P004,Monitor,Electronics,India,Mumbai,Supplier C,2024-01-25,150,14,74,210,49,229,10,1,Healthy,26,48090
+P004,Monitor,Electronics,Germany,Berlin,Supplier A,2024-01-26,69,38,7,38,63,843,5,9,Low,58,32034
+P002,Phone,Electronics,USA,Los Angeles,Supplier A,2024-01-27,79,44,71,106,60,1485,15,9,Healthy,12,157410
+P003,Tablet,Electronics,India,Delhi,Supplier A,2024-01-28,131,27,31,135,100,722,13,8,Healthy,57,97470
+P001,Laptop,Electronics,Thailand,Chiang Mai,Supplier C,2024-01-29,113,54,33,92,70,301,6,0,Healthy,55,27692
+P002,Phone,Electronics,India,Mumbai,Supplier B,2024-01-30,124,26,50,148,76,1061,8,10,Healthy,25,157028
+P005,Keyboard,Electronics,India,Mumbai,Supplier B,2024-01-31,166,17,48,197,67,1048,12,10,Healthy,13,206456
+P004,Monitor,Electronics,Thailand,Bangkok,Supplier B,2024-02-01,125,14,22,133,47,1326,8,7,Healthy,61,176358
+P002,Phone,Electronics,China,Shenzhen,Supplier A,2024-02-02,115,5,36,146,79,874,14,0,Healthy,27,127604
+P003,Tablet,Electronics,China,Shanghai,Supplier B,2024-02-03,274,16,36,294,76,867,9,9,Healthy,38,254898
+P004,Monitor,Electronics,USA,New York,Supplier A,2024-02-04,210,31,56,235,69,1048,12,10,Healthy,14,246280
+P003,Tablet,Electronics,India,Delhi,Supplier C,2024-02-05,149,9,59,199,99,189,2,5,Healthy,55,37611
+P003,Tablet,Electronics,USA,Los Angeles,Supplier A,2024-02-06,63,58,37,42,63,1492,15,6,Low,27,62664
+P001,Laptop,Electronics,India,Delhi,Supplier B,2024-02-07,197,49,43,191,60,696,2,4,Healthy,57,132936
+P005,Keyboard,Electronics,Thailand,Bangkok,Supplier C,2024-02-08,112,40,16,88,99,1493,9,9,Low,53,131384
+P002,Phone,Electronics,USA,Los Angeles,Supplier B,2024-02-09,204,50,77,231,57,441,6,8,Healthy,17,101871
+P002,Phone,Electronics,USA,New York,Supplier A,2024-02-10,196,11,78,263,82,483,12,3,Healthy,14,127029
+P003,Tablet,Electronics,China,Shenzhen,Supplier A,2024-02-11,228,49,73,252,86,600,8,5,Healthy,10,151200
+P001,Laptop,Electronics,Thailand,Bangkok,Supplier B,2024-02-12,215,28,66,253,89,1152,8,5,Healthy,52,291456
+P001,Laptop,Electronics,Thailand,Bangkok,Supplier A,2024-02-13,66,19,7,54,41,166,10,9,Healthy,39,8964
+P002,Phone,Electronics,China,Shenzhen,Supplier A,2024-02-14,131,15,0,116,50,1084,2,3,Healthy,67,125744
+P005,Keyboard,Electronics,Thailand,Chiang Mai,Supplier A,2024-02-15,234,35,64,263,94,712,6,5,Healthy,53,187256
+P001,Laptop,Electronics,Thailand,Chiang Mai,Supplier A,2024-02-16,51,36,59,74,43,938,10,9,Healthy,21,69412
+P003,Tablet,Electronics,USA,Los Angeles,Supplier B,2024-02-17,226,27,6,205,43,472,12,0,Healthy,55,96760
+P003,Tablet,Electronics,Thailand,Chiang Mai,Supplier A,2024-02-18,226,46,51,231,99,927,6,6,Healthy,55,214137
+P003,Tablet,Electronics,China,Shenzhen,Supplier A,2024-02-19,136,39,46,143,43,940,5,6,Healthy,21,134420
+P004,Monitor,Electronics,Germany,Berlin,Supplier C,2024-02-20,254,39,33,248,66,1450,14,7,Healthy,10,359600
+P005,Keyboard,Electronics,Germany,Berlin,Supplier C,2024-02-21,211,24,74,261,44,660,8,3,Healthy,49,172260
+P003,Tablet,Electronics,Germany,Munich,Supplier A,2024-02-22,99,25,1,75,82,1046,12,6,Low,55,78450
+P003,Tablet,Electronics,India,Mumbai,Supplier B,2024-02-23,191,20,38,209,62,79,4,2,Healthy,19,16511
+P005,Keyboard,Electronics,Germany,Munich,Supplier A,2024-02-24,107,43,27,91,65,749,14,2,Healthy,38,68159
+P001,Laptop,Electronics,India,Delhi,Supplier A,2024-02-25,178,11,16,183,68,222,10,6,Healthy,29,40626
+P002,Phone,Electronics,Germany,Berlin,Supplier A,2024-02-26,185,25,27,187,57,131,10,7,Healthy,37,24497
+P004,Monitor,Electronics,India,Mumbai,Supplier A,2024-02-27,126,58,65,133,41,866,5,4,Healthy,57,115178
+P001,Laptop,Electronics,Thailand,Bangkok,Supplier B,2024-02-28,56,16,30,70,47,460,5,6,Healthy,37,32200
+P002,Phone,Electronics,Germany,Munich,Supplier A,2024-02-29,111,28,28,111,99,1033,10,6,Healthy,27,114663
+P004,Monitor,Electronics,India,Delhi,Supplier C,2024-03-01,222,25,75,272,60,1457,9,0,Healthy,24,396304
+P004,Monitor,Electronics,India,Delhi,Supplier B,2024-03-02,123,52,26,97,96,1451,9,8,Healthy,59,140747
+P004,Monitor,Electronics,USA,New York,Supplier B,2024-03-03,265,12,11,264,59,1193,4,8,Healthy,40,314952
+P003,Tablet,Electronics,China,Shanghai,Supplier B,2024-03-04,187,50,24,161,40,321,7,7,Healthy,29,51681
+P003,Tablet,Electronics,China,Shenzhen,Supplier C,2024-03-05,116,8,17,125,64,1055,15,3,Healthy,36,131875
+P002,Phone,Electronics,Thailand,Bangkok,Supplier B,2024-03-06,162,26,53,189,54,1047,5,10,Healthy,70,197883
+P005,Keyboard,Electronics,Thailand,Bangkok,Supplier C,2024-03-07,213,14,11,210,68,1390,5,1,Healthy,57,291900
+P001,Laptop,Electronics,Thailand,Chiang Mai,Supplier A,2024-03-08,220,42,22,200,54,201,15,10,Healthy,10,40200
+P001,Laptop,Electronics,China,Shanghai,Supplier C,2024-03-09,152,59,46,139,45,1324,3,8,Healthy,60,184036
+P002,Phone,Electronics,India,Mumbai,Supplier C,2024-03-10,79,43,38,74,45,1195,4,0,Healthy,30,88430
+P002,Phone,Electronics,Germany,Berlin,Supplier C,2024-03-11,174,27,17,164,94,241,6,0,Healthy,20,39524
+P005,Keyboard,Electronics,Germany,Berlin,Supplier B,2024-03-12,136,26,49,159,81,905,3,3,Healthy,22,143895
+P003,Tablet,Electronics,India,Delhi,Supplier A,2024-03-13,190,55,36,171,97,938,6,8,Healthy,55,160398
+P002,Phone,Electronics,Thailand,Bangkok,Supplier A,2024-03-14,207,7,12,212,47,841,15,4,Healthy,65,178292
+P005,Keyboard,Electronics,USA,New York,Supplier A,2024-03-15,265,47,72,290,99,1294,2,8,Healthy,40,375260
+P004,Monitor,Electronics,Germany,Munich,Supplier A,2024-03-16,86,40,45,91,50,1346,4,5,Healthy,47,122486
+P004,Monitor,Electronics,Germany,Berlin,Supplier B,2024-03-17,81,19,17,79,58,1198,6,2,Healthy,26,94642
+P001,Laptop,Electronics,Thailand,Chiang Mai,Supplier A,2024-03-18,120,38,10,92,89,148,13,2,Healthy,13,13616
+P005,Keyboard,Electronics,Germany,Berlin,Supplier A,2024-03-19,223,56,78,245,96,652,3,5,Healthy,55,159740
+P001,Laptop,Electronics,China,Shenzhen,Supplier C,2024-03-20,80,13,1,68,59,293,8,8,Healthy,49,19924
+P002,Phone,Electronics,Germany,Munich,Supplier B,2024-03-21,242,14,48,276,94,1333,13,10,Healthy,61,367908
+P001,Laptop,Electronics,Thailand,Chiang Mai,Supplier B,2024-03-22,221,33,8,196,58,770,6,9,Healthy,37,150920
+P005,Keyboard,Electronics,India,Delhi,Supplier B,2024-03-23,241,49,57,249,93,237,7,9,Healthy,27,59013
+P003,Tablet,Electronics,USA,New York,Supplier A,2024-03-24,297,11,23,309,60,857,3,7,Healthy,62,264813
+P003,Tablet,Electronics,USA,Los Angeles,Supplier A,2024-03-25,255,52,40,243,52,1190,14,1,Healthy,11,289170
+P003,Tablet,Electronics,USA,Los Angeles,Supplier C,2024-03-26,126,42,44,128,78,738,7,0,Healthy,33,94464
+P001,Laptop,Electronics,Germany,Berlin,Supplier A,2024-03-27,234,21,26,239,83,341,5,5,Healthy,28,81499
+P002,Phone,Electronics,Germany,Munich,Supplier C,2024-03-28,153,41,9,121,54,960,13,6,Healthy,15,116160
+P001,Laptop,Electronics,USA,Los Angeles,Supplier A,2024-03-29,80,53,39,66,81,115,10,7,Low,56,7590
+P004,Monitor,Electronics,Thailand,Bangkok,Supplier A,2024-03-30,281,59,60,282,55,670,10,9,Healthy,32,188940
+P001,Laptop,Electronics,USA,New York,Supplier C,2024-03-31,274,11,8,271,92,1219,4,9,Healthy,19,330349
+P001,Laptop,Electronics,Thailand,Chiang Mai,Supplier C,2024-04-01,234,28,6,212,73,680,15,4,Healthy,51,144160
+P003,Tablet,Electronics,China,Shanghai,Supplier B,2024-04-02,267,59,5,213,81,713,9,9,Healthy,45,151869
+P003,Tablet,Electronics,India,Mumbai,Supplier B,2024-04-03,57,30,44,71,77,950,12,4,Low,50,67450
+P003,Tablet,Electronics,India,Mumbai,Supplier C,2024-04-04,281,26,67,322,84,59,12,1,Healthy,23,18998
+P002,Phone,Electronics,Thailand,Chiang Mai,Supplier B,2024-04-05,201,31,67,237,100,1215,3,8,Healthy,57,287955
+P002,Phone,Electronics,USA,Los Angeles,Supplier C,2024-04-06,137,16,8,129,40,1131,13,5,Healthy,38,145899
+P003,Tablet,Electronics,India,Mumbai,Supplier C,2024-04-07,255,49,32,238,49,879,3,0,Healthy,64,209202
+P005,Keyboard,Electronics,China,Shenzhen,Supplier A,2024-04-08,237,32,19,224,88,825,15,0,Healthy,30,184800
+P004,Monitor,Electronics,China,Shenzhen,Supplier A,2024-04-09,275,50,45,270,68,417,13,6,Healthy,43,112590
+P001,Laptop,Electronics,Germany,Berlin,Supplier A,2024-04-10,298,47,43,294,63,220,15,8,Healthy,52,64680
+P002,Phone,Electronics,China,Shanghai,Supplier B,2024-04-11,150,42,2,110,73,404,11,1,Healthy,13,44440
+P004,Monitor,Electronics,Germany,Munich,Supplier C,2024-04-12,264,12,23,275,43,964,8,5,Healthy,24,265100
+P002,Phone,Electronics,China,Shenzhen,Supplier A,2024-04-13,70,22,72,120,99,1160,3,8,Healthy,65,139200
+P002,Phone,Electronics,Thailand,Chiang Mai,Supplier C,2024-04-14,105,25,61,141,87,129,9,8,Healthy,44,18189
+P001,Laptop,Electronics,Thailand,Bangkok,Supplier C,2024-04-15,69,37,31,63,42,435,12,8,Healthy,62,27405
+P001,Laptop,Electronics,India,Delhi,Supplier B,2024-04-16,166,49,9,126,46,657,7,3,Healthy,65,82782
+P001,Laptop,Electronics,China,Shanghai,Supplier C,2024-04-17,103,21,18,100,56,1323,9,0,Healthy,40,132300
+P002,Phone,Electronics,China,Shanghai,Supplier A,2024-04-18,296,15,50,331,47,829,10,4,Healthy,49,274399
+P004,Monitor,Electronics,China,Shenzhen,Supplier B,2024-04-19,275,15,24,284,89,631,4,5,Healthy,52,179204
+P003,Tablet,Electronics,India,Delhi,Supplier C,2024-04-20,134,52,20,102,67,70,13,8,Healthy,68,7140
+P003,Tablet,Electronics,USA,New York,Supplier B,2024-04-21,211,35,30,206,97,1150,8,1,Healthy,29,236900
+P003,Tablet,Electronics,China,Shanghai,Supplier A,2024-04-22,76,37,1,40,89,377,9,5,Low,50,15080
+P005,Keyboard,Electronics,China,Shenzhen,Supplier A,2024-04-23,176,42,35,169,60,1142,6,6,Healthy,17,192998
+P001,Laptop,Electronics,India,Delhi,Supplier C,2024-04-24,181,34,67,214,40,852,10,6,Healthy,16,182328
+P001,Laptop,Electronics,Germany,Munich,Supplier B,2024-04-25,232,50,42,224,58,900,8,2,Healthy,59,201600
+P001,Laptop,Electronics,India,Mumbai,Supplier B,2024-04-26,82,33,16,65,87,154,3,7,Low,57,10010
+P002,Phone,Electronics,Thailand,Chiang Mai,Supplier A,2024-04-27,284,29,9,264,55,548,6,8,Healthy,29,144672
+P002,Phone,Electronics,Thailand,Chiang Mai,Supplier A,2024-04-28,104,9,57,152,53,442,10,8,Healthy,48,67184
+P005,Keyboard,Electronics,Thailand,Chiang Mai,Supplier A,2024-04-29,179,43,29,165,68,1290,6,3,Healthy,30,212850
+P001,Laptop,Electronics,China,Shenzhen,Supplier B,2024-01-01,178,12,70,236,94,1226,8,2,Healthy,28,289336
+P001,Laptop,Electronics,India,Mumbai,Supplier B,2024-01-02,66,43,43,66,90,1181,3,6,Low,48,77946
+P002,Phone,Electronics,USA,New York,Supplier B,2024-01-03,91,59,12,44,40,224,4,1,Healthy,27,9856
+P001,Laptop,Electronics,Thailand,Chiang Mai,Supplier B,2024-01-04,125,5,58,178,78,1153,7,9,Healthy,43,205234
+P001,Laptop,Electronics,USA,Los Angeles,Supplier C,2024-01-05,163,21,28,170,97,171,6,4,Healthy,49,29070
+P001,Laptop,Electronics,India,Delhi,Supplier C,2024-01-06,162,14,71,219,88,671,7,7,Healthy,26,146949
+P002,Phone,Electronics,Thailand,Chiang Mai,Supplier A,2024-01-07,182,60,13,135,61,599,13,8,Healthy,35,80865
+P002,Phone,Electronics,China,Shenzhen,Supplier B,2024-01-08,259,42,0,217,89,704,11,7,Healthy,15,152768
+P004,Monitor,Electronics,India,Delhi,Supplier C,2024-01-09,249,12,24,261,63,1169,11,8,Healthy,13,305109
+P001,Laptop,Electronics,Germany,Berlin,Supplier B,2024-01-10,159,60,53,152,54,584,8,2,Healthy,40,88768
+P005,Keyboard,Electronics,Thailand,Bangkok,Supplier B,2024-01-11,160,28,48,180,69,90,13,3,Healthy,33,16200
+P002,Phone,Electronics,Thailand,Bangkok,Supplier B,2024-01-12,279,8,76,347,84,478,10,3,Healthy,49,165866
+P002,Phone,Electronics,USA,New York,Supplier B,2024-01-13,83,30,65,118,57,389,14,4,Healthy,25,45902
+P003,Tablet,Electronics,Germany,Berlin,Supplier C,2024-01-14,181,45,32,168,51,972,13,2,Healthy,19,163296
+P003,Tablet,Electronics,Germany,Berlin,Supplier B,2024-01-15,115,40,70,145,42,372,8,5,Healthy,50,53940
+P003,Tablet,Electronics,USA,Los Angeles,Supplier B,2024-01-16,65,55,15,25,83,396,7,9,Low,61,9900
+P003,Tablet,Electronics,China,Shanghai,Supplier B,2024-01-17,264,58,54,260,46,917,9,0,Healthy,40,238420
+P005,Keyboard,Electronics,Germany,Berlin,Supplier C,2024-01-18,296,49,1,248,92,571,14,6,Healthy,20,141608
+P005,Keyboard,Electronics,China,Shenzhen,Supplier B,2024-01-19,53,31,53,75,73,752,5,1,Healthy,28,56400
+P004,Monitor,Electronics,China,Shanghai,Supplier A,2024-01-20,129,47,11,93,62,781,12,8,Healthy,46,72633
+P004,Monitor,Electronics,Thailand,Chiang Mai,Supplier C,2024-01-21,127,15,39,151,79,1177,14,8,Healthy,30,177727
+P002,Phone,Electronics,India,Mumbai,Supplier B,2024-01-22,220,26,79,273,47,689,14,1,Healthy,21,188097
+P005,Keyboard,Electronics,Thailand,Bangkok,Supplier C,2024-01-23,57,60,32,29,50,258,7,6,Low,17,7482
+P005,Keyboard,Electronics,USA,Los Angeles,Supplier C,2024-01-24,175,58,46,163,95,728,14,1,Healthy,24,118664
+P002,Phone,Electronics,USA,Los Angeles,Supplier B,2024-01-25,203,43,28,188,47,346,7,4,Healthy,27,65048
+P002,Phone,Electronics,Germany,Berlin,Supplier B,2024-01-26,213,51,9,171,87,1026,2,4,Healthy,26,175446
+P003,Tablet,Electronics,India,Delhi,Supplier C,2024-01-27,54,50,4,8,53,1458,5,4,Low,35,11664
+P004,Monitor,Electronics,India,Delhi,Supplier A,2024-01-28,145,59,68,154,66,924,7,10,Healthy,70,142296
+P002,Phone,Electronics,USA,Los Angeles,Supplier A,2024-01-29,76,16,39,99,99,1018,9,7,Low,44,100782
+P001,Laptop,Electronics,USA,New York,Supplier C,2024-01-30,106,40,64,130,44,272,12,5,Healthy,20,35360
+P003,Tablet,Electronics,China,Shenzhen,Supplier B,2024-01-31,156,14,49,191,92,759,8,3,Healthy,15,144969
+P004,Monitor,Electronics,USA,Los Angeles,Supplier A,2024-02-01,260,54,35,241,78,853,12,4,Healthy,30,205573
+P004,Monitor,Electronics,India,Delhi,Supplier C,2024-02-02,168,57,30,141,88,1431,10,2,Healthy,15,201771
+P004,Monitor,Electronics,USA,New York,Supplier B,2024-02-03,120,45,56,131,99,677,13,8,Healthy,62,88687
+P001,Laptop,Electronics,Germany,Munich,Supplier B,2024-02-04,131,26,31,136,51,1417,10,4,Healthy,53,192712
+P004,Monitor,Electronics,China,Shanghai,Supplier B,2024-02-05,243,55,48,236,89,313,5,10,Healthy,34,73868
+P005,Keyboard,Electronics,India,Mumbai,Supplier B,2024-02-06,185,41,12,156,55,868,9,3,Healthy,34,135408
+P003,Tablet,Electronics,China,Shenzhen,Supplier B,2024-02-07,209,59,35,185,40,1362,11,6,Healthy,42,251970
+P005,Keyboard,Electronics,Germany,Berlin,Supplier A,2024-02-08,261,60,54,255,41,724,15,1,Healthy,62,184620
+P002,Phone,Electronics,China,Shenzhen,Supplier C,2024-02-09,213,29,52,236,42,961,15,8,Healthy,33,226796
+P003,Tablet,Electronics,USA,Los Angeles,Supplier B,2024-02-10,291,25,14,280,52,813,2,1,Healthy,21,227640
+P005,Keyboard,Electronics,USA,Los Angeles,Supplier A,2024-02-11,266,52,31,245,53,252,12,2,Healthy,29,61740
+P005,Keyboard,Electronics,India,Mumbai,Supplier B,2024-02-12,68,28,60,100,46,1370,12,1,Healthy,33,137000
+P004,Monitor,Electronics,Thailand,Chiang Mai,Supplier B,2024-02-13,249,51,39,237,72,593,10,0,Healthy,27,140541
+P005,Keyboard,Electronics,China,Shenzhen,Supplier C,2024-02-14,60,58,7,9,67,1375,7,4,Low,42,12375
+P001,Laptop,Electronics,Germany,Berlin,Supplier C,2024-02-15,285,41,0,244,41,1312,9,1,Healthy,46,320128
+P001,Laptop,Electronics,India,Delhi,Supplier C,2024-02-16,231,24,52,259,85,474,6,1,Healthy,18,122766
+P002,Phone,Electronics,Thailand,Chiang Mai,Supplier B,2024-02-17,164,52,19,131,88,185,15,10,Healthy,45,24235
+P005,Keyboard,Electronics,China,Shanghai,Supplier C,2024-02-18,226,39,50,237,65,1119,7,6,Healthy,10,265203
+P003,Tablet,Electronics,Germany,Munich,Supplier B,2024-02-19,253,23,73,303,53,570,7,9,Healthy,42,172710
+P004,Monitor,Electronics,Thailand,Chiang Mai,Supplier A,2024-02-20,55,11,78,122,53,570,11,10,Healthy,57,69540
+P001,Laptop,Electronics,Germany,Munich,Supplier A,2024-02-21,72,10,22,84,91,1375,12,6,Low,66,115500
+P001,Laptop,Electronics,India,Mumbai,Supplier A,2024-02-22,139,55,7,91,97,675,4,9,Low,63,61425
+P001,Laptop,Electronics,India,Delhi,Supplier B,2024-02-23,156,23,19,152,81,1156,2,1,Healthy,11,175712
+P001,Laptop,Electronics,Germany,Munich,Supplier A,2024-02-24,235,15,72,292,50,107,5,3,Healthy,50,31244
+P004,Monitor,Electronics,Germany,Berlin,Supplier C,2024-02-25,67,25,26,68,84,488,7,0,Low,51,33184
+P005,Keyboard,Electronics,India,Delhi,Supplier B,2024-02-26,93,33,6,66,60,1006,6,0,Healthy,19,66396
+P003,Tablet,Electronics,USA,New York,Supplier B,2024-02-27,135,36,0,99,72,653,3,1,Healthy,41,64647
+P002,Phone,Electronics,China,Shanghai,Supplier C,2024-02-28,292,7,36,321,60,600,12,10,Healthy,31,192600
+P004,Monitor,Electronics,India,Delhi,Supplier A,2024-02-29,164,57,28,135,79,606,6,5,Healthy,26,81810
+P001,Laptop,Electronics,India,Mumbai,Supplier C,2024-03-01,292,20,56,328,89,1484,9,10,Healthy,40,486752
+P001,Laptop,Electronics,USA,New York,Supplier B,2024-03-02,108,23,14,99,79,168,9,10,Healthy,27,16632
+P003,Tablet,Electronics,India,Mumbai,Supplier C,2024-03-03,188,41,36,183,90,110,6,0,Healthy,54,20130
+P004,Monitor,Electronics,India,Mumbai,Supplier B,2024-03-04,56,9,33,80,93,207,15,5,Low,35,16560
+P004,Monitor,Electronics,China,Shanghai,Supplier B,2024-03-05,218,40,62,240,66,885,10,9,Healthy,50,212400
+P005,Keyboard,Electronics,China,Shanghai,Supplier C,2024-03-06,291,42,15,264,63,57,7,3,Healthy,44,15048
+P004,Monitor,Electronics,China,Shenzhen,Supplier B,2024-03-07,288,48,36,276,88,838,5,5,Healthy,36,231288
+P004,Monitor,Electronics,China,Shanghai,Supplier A,2024-03-08,110,8,32,134,81,921,12,8,Healthy,26,123414
+P004,Monitor,Electronics,Thailand,Bangkok,Supplier B,2024-03-09,227,16,29,240,70,759,13,2,Healthy,16,182160
+P004,Monitor,Electronics,India,Delhi,Supplier A,2024-03-10,210,45,61,226,92,1122,7,8,Healthy,19,253572
+P002,Phone,Electronics,India,Delhi,Supplier A,2024-03-11,74,26,7,55,90,193,4,6,Low,40,10615
+P004,Monitor,Electronics,USA,New York,Supplier C,2024-03-12,89,42,64,111,94,1000,12,10,Healthy,18,111000
+P004,Monitor,Electronics,Germany,Berlin,Supplier A,2024-03-13,164,30,12,146,46,754,12,6,Healthy,20,110084
+P004,Monitor,Electronics,Germany,Berlin,Supplier A,2024-03-14,62,8,74,128,81,346,5,8,Healthy,41,44288
+P004,Monitor,Electronics,USA,New York,Supplier B,2024-03-15,158,39,66,185,51,1041,13,3,Healthy,51,192585
+P001,Laptop,Electronics,USA,New York,Supplier C,2024-03-16,239,49,22,212,61,451,15,6,Healthy,38,95612
+P005,Keyboard,Electronics,India,Mumbai,Supplier C,2024-03-17,61,50,58,69,98,1313,6,0,Low,64,90597
+P001,Laptop,Electronics,India,Delhi,Supplier A,2024-03-18,268,40,47,275,86,1263,8,7,Healthy,22,347325
+P004,Monitor,Electronics,India,Mumbai,Supplier B,2024-03-19,109,51,74,132,87,77,13,1,Healthy,45,10164
+P004,Monitor,Electronics,Thailand,Bangkok,Supplier B,2024-03-20,296,15,60,341,56,371,14,3,Healthy,64,126511
+P005,Keyboard,Electronics,USA,Los Angeles,Supplier A,2024-03-21,197,36,72,233,55,234,6,4,Healthy,10,54522
+P001,Laptop,Electronics,Germany,Munich,Supplier A,2024-03-22,130,30,21,121,62,631,12,5,Healthy,54,76351
+P002,Phone,Electronics,China,Shanghai,Supplier A,2024-03-23,105,35,39,109,55,1398,13,10,Healthy,26,152382
+P002,Phone,Electronics,USA,Los Angeles,Supplier B,2024-03-24,214,56,52,210,57,311,2,5,Healthy,16,65310
+P002,Phone,Electronics,Thailand,Bangkok,Supplier B,2024-03-25,130,14,54,170,68,177,9,2,Healthy,52,30090
+P001,Laptop,Electronics,India,Mumbai,Supplier B,2024-03-26,60,29,62,93,89,998,5,7,Healthy,26,92814
+P003,Tablet,Electronics,Germany,Berlin,Supplier A,2024-03-27,80,36,71,115,57,195,15,9,Healthy,56,22425
+P005,Keyboard,Electronics,India,Mumbai,Supplier A,2024-03-28,82,18,50,114,76,569,3,0,Healthy,19,64866
+P001,Laptop,Electronics,USA,New York,Supplier C,2024-03-29,101,48,67,120,90,478,2,3,Healthy,56,57360
+P001,Laptop,Electronics,China,Shenzhen,Supplier C,2024-03-30,67,23,3,47,44,858,8,4,Healthy,16,40326
+P001,Laptop,Electronics,Thailand,Bangkok,Supplier C,2024-03-31,55,20,21,56,82,227,11,3,Low,40,12712
+P005,Keyboard,Electronics,India,Delhi,Supplier B,2024-04-01,69,55,8,22,67,747,4,6,Low,51,16434
+P001,Laptop,Electronics,Thailand,Chiang Mai,Supplier C,2024-04-02,274,41,32,265,59,170,15,9,Healthy,34,45050
+P005,Keyboard,Electronics,Germany,Munich,Supplier C,2024-04-03,233,31,21,223,95,238,3,0,Healthy,60,53074
+P005,Keyboard,Electronics,USA,Los Angeles,Supplier C,2024-04-04,88,14,19,93,65,1179,10,4,Healthy,59,109647
+P004,Monitor,Electronics,China,Shanghai,Supplier A,2024-04-05,287,38,64,313,85,110,5,4,Healthy,31,34430
+P003,Tablet,Electronics,China,Shenzhen,Supplier A,2024-04-06,164,21,19,162,80,128,4,0,Healthy,54,20736
+P001,Laptop,Electronics,Thailand,Chiang Mai,Supplier C,2024-04-07,227,40,32,219,100,114,13,9,Healthy,32,24966
+P004,Monitor,Electronics,USA,New York,Supplier C,2024-04-08,192,31,12,173,68,892,9,9,Healthy,15,154316
+P003,Tablet,Electronics,India,Mumbai,Supplier A,2024-04-09,218,33,12,197,69,736,2,7,Healthy,11,144992
+P004,Monitor,Electronics,Thailand,Chiang Mai,Supplier C,2024-04-10,60,50,57,67,71,1226,12,6,Low,60,82142
+P002,Phone,Electronics,Germany,Munich,Supplier C,2024-04-11,148,31,66,183,80,1225,7,8,Healthy,29,224175
+P005,Keyboard,Electronics,USA,Los Angeles,Supplier C,2024-04-12,98,7,19,110,58,1232,10,2,Healthy,45,135520
+P001,Laptop,Electronics,India,Delhi,Supplier A,2024-04-13,82,28,4,58,60,1151,6,6,Low,70,66758
+P005,Keyboard,Electronics,Thailand,Bangkok,Supplier A,2024-04-14,219,13,61,267,82,629,3,8,Healthy,65,167943
+P002,Phone,Electronics,China,Shenzhen,Supplier A,2024-04-15,247,27,24,244,41,901,13,9,Healthy,37,219844
+P005,Keyboard,Electronics,USA,Los Angeles,Supplier C,2024-04-16,59,38,62,83,96,807,2,9,Low,51,66981
+P005,Keyboard,Electronics,China,Shenzhen,Supplier B,2024-04-17,219,19,1,201,84,1176,5,2,Healthy,36,236376
+P004,Monitor,Electronics,Germany,Berlin,Supplier A,2024-04-18,110,10,14,114,55,507,8,1,Healthy,64,57798
+P003,Tablet,Electronics,China,Shenzhen,Supplier A,2024-04-19,76,43,50,83,47,1347,4,1,Healthy,66,111801
+P001,Laptop,Electronics,China,Shenzhen,Supplier A,2024-04-20,236,51,45,230,55,1307,8,0,Healthy,38,300610
+P003,Tablet,Electronics,Thailand,Bangkok,Supplier B,2024-04-21,164,48,71,187,44,1168,13,3,Healthy,44,218416
+P001,Laptop,Electronics,Thailand,Chiang Mai,Supplier C,2024-04-22,184,60,15,139,41,792,13,9,Healthy,21,110088
+P001,Laptop,Electronics,Thailand,Chiang Mai,Supplier C,2024-04-23,207,43,8,172,77,1289,6,10,Healthy,31,221708
+P003,Tablet,Electronics,India,Mumbai,Supplier B,2024-04-24,181,12,60,229,41,840,15,8,Healthy,34,192360
+P004,Monitor,Electronics,China,Shenzhen,Supplier C,2024-04-25,187,48,35,174,64,645,14,7,Healthy,49,112230
+P004,Monitor,Electronics,India,Mumbai,Supplier A,2024-04-26,80,42,44,82,46,1340,8,3,Healthy,41,109880
+P001,Laptop,Electronics,USA,Los Angeles,Supplier B,2024-04-27,118,28,65,155,75,1223,4,7,Healthy,35,189565
+P004,Monitor,Electronics,Thailand,Bangkok,Supplier B,2024-04-28,149,21,14,142,69,709,12,2,Healthy,14,100678
+P002,Phone,Electronics,USA,Los Angeles,Supplier C,2024-04-29,68,10,50,108,50,101,10,9,Healthy,48,10908
+P002,Phone,Electronics,Germany,Munich,Supplier A,2024-01-01,177,30,44,191,66,1088,7,8,Healthy,37,207808
+P004,Monitor,Electronics,USA,New York,Supplier B,2024-01-02,129,20,2,111,85,399,11,7,Healthy,26,44289
+P002,Phone,Electronics,USA,Los Angeles,Supplier A,2024-01-03,179,5,63,237,97,1153,4,10,Healthy,11,273261
+P004,Monitor,Electronics,China,Shanghai,Supplier C,2024-01-04,226,37,53,242,84,959,14,5,Healthy,45,232078
+P001,Laptop,Electronics,China,Shenzhen,Supplier C,2024-01-05,180,59,15,136,73,306,12,10,Healthy,26,41616
+P001,Laptop,Electronics,China,Shanghai,Supplier A,2024-01-06,68,55,75,88,49,58,9,1,Healthy,32,5104
+P001,Laptop,Electronics,China,Shenzhen,Supplier C,2024-01-07,274,57,70,287,92,312,10,9,Healthy,58,89544
+P004,Monitor,Electronics,China,Shenzhen,Supplier A,2024-01-08,135,20,2,117,54,875,14,1,Healthy,24,102375
+P001,Laptop,Electronics,China,Shanghai,Supplier B,2024-01-09,246,60,26,212,46,1435,15,3,Healthy,54,304220
+P005,Keyboard,Electronics,USA,New York,Supplier C,2024-01-10,237,42,40,235,58,986,5,3,Healthy,37,231710
+P001,Laptop,Electronics,China,Shanghai,Supplier A,2024-01-11,256,6,43,293,55,385,12,2,Healthy,69,112805
+P003,Tablet,Electronics,Thailand,Chiang Mai,Supplier A,2024-01-12,128,24,59,163,65,493,5,3,Healthy,30,80359
+P004,Monitor,Electronics,Germany,Berlin,Supplier A,2024-01-13,152,60,72,164,58,776,2,4,Healthy,68,127264
+P001,Laptop,Electronics,India,Delhi,Supplier A,2024-01-14,84,49,44,79,51,149,8,0,Healthy,43,11771
+P004,Monitor,Electronics,Germany,Munich,Supplier A,2024-01-15,265,57,5,213,41,421,11,6,Healthy,26,89673
+P002,Phone,Electronics,Thailand,Bangkok,Supplier A,2024-01-16,114,16,3,101,47,98,4,3,Healthy,67,9898
+P004,Monitor,Electronics,Germany,Munich,Supplier B,2024-01-17,193,20,73,246,72,851,8,8,Healthy,32,209346
+P001,Laptop,Electronics,Thailand,Chiang Mai,Supplier B,2024-01-18,152,25,61,188,84,638,15,8,Healthy,53,119944
+P002,Phone,Electronics,Thailand,Bangkok,Supplier B,2024-01-19,90,35,16,71,90,101,11,7,Low,43,7171
+P005,Keyboard,Electronics,Thailand,Chiang Mai,Supplier B,2024-01-20,275,52,75,298,74,311,12,5,Healthy,14,92678
+P001,Laptop,Electronics,India,Mumbai,Supplier C,2024-01-21,219,42,39,216,47,137,11,4,Healthy,70,29592
+P004,Monitor,Electronics,Thailand,Chiang Mai,Supplier C,2024-01-22,263,5,64,322,50,995,14,9,Healthy,27,320390
+P005,Keyboard,Electronics,Thailand,Bangkok,Supplier B,2024-01-23,97,32,35,100,54,381,12,6,Healthy,51,38100
+P003,Tablet,Electronics,Thailand,Chiang Mai,Supplier C,2024-01-24,241,58,61,244,76,390,9,10,Healthy,15,95160
+P001,Laptop,Electronics,China,Shenzhen,Supplier A,2024-01-25,158,39,29,148,67,1268,6,0,Healthy,68,187664
+P003,Tablet,Electronics,Germany,Berlin,Supplier C,2024-01-26,56,35,30,51,80,1038,14,2,Low,34,52938
+P005,Keyboard,Electronics,India,Mumbai,Supplier B,2024-01-27,293,55,37,275,83,379,5,4,Healthy,58,104225
+P002,Phone,Electronics,Thailand,Chiang Mai,Supplier A,2024-01-28,53,21,43,75,54,448,14,9,Healthy,41,33600
+P001,Laptop,Electronics,Thailand,Chiang Mai,Supplier A,2024-01-29,136,23,14,127,86,1006,15,5,Healthy,51,127762
+P003,Tablet,Electronics,USA,New York,Supplier A,2024-01-30,58,28,49,79,73,1032,7,8,Healthy,66,81528
+P004,Monitor,Electronics,USA,New York,Supplier B,2024-01-31,55,41,20,34,96,711,13,5,Low,68,24174
+P003,Tablet,Electronics,Germany,Berlin,Supplier A,2024-02-01,72,35,43,80,60,69,3,7,Healthy,46,5520
+P003,Tablet,Electronics,Germany,Berlin,Supplier B,2024-02-02,103,36,25,92,59,431,8,10,Healthy,16,39652
+P004,Monitor,Electronics,Thailand,Chiang Mai,Supplier C,2024-02-03,71,32,66,105,78,403,12,7,Healthy,37,42315
+P002,Phone,Electronics,Thailand,Bangkok,Supplier C,2024-02-04,184,53,61,192,89,639,15,9,Healthy,28,122688
+P002,Phone,Electronics,China,Shanghai,Supplier B,2024-02-05,63,32,50,81,48,743,14,4,Healthy,44,60183
+P003,Tablet,Electronics,Germany,Berlin,Supplier C,2024-02-06,141,16,8,133,80,878,7,2,Healthy,61,116774
+P002,Phone,Electronics,Germany,Munich,Supplier A,2024-02-07,249,37,47,259,100,263,7,4,Healthy,37,68117
+P004,Monitor,Electronics,India,Delhi,Supplier C,2024-02-08,54,30,57,81,95,569,3,9,Low,45,46089
+P005,Keyboard,Electronics,India,Delhi,Supplier B,2024-02-09,62,56,6,12,67,886,6,3,Low,35,10632
+P002,Phone,Electronics,Thailand,Bangkok,Supplier C,2024-02-10,163,43,58,178,72,593,10,9,Healthy,21,105554
+P002,Phone,Electronics,Thailand,Chiang Mai,Supplier C,2024-02-11,179,56,6,129,58,1297,10,9,Healthy,39,167313
+P003,Tablet,Electronics,India,Delhi,Supplier C,2024-02-12,291,13,14,292,76,88,6,10,Healthy,48,25696
+P002,Phone,Electronics,Germany,Berlin,Supplier C,2024-02-13,179,47,28,160,46,1208,12,4,Healthy,36,193280
+P005,Keyboard,Electronics,India,Mumbai,Supplier C,2024-02-14,152,21,13,144,90,1291,10,5,Healthy,49,185904
+P004,Monitor,Electronics,Germany,Berlin,Supplier A,2024-02-15,137,57,45,125,46,887,13,9,Healthy,22,110875
+P005,Keyboard,Electronics,Germany,Berlin,Supplier B,2024-02-16,237,29,21,229,98,455,12,0,Healthy,64,104195
+P003,Tablet,Electronics,Thailand,Chiang Mai,Supplier C,2024-02-17,140,38,14,116,97,1336,7,5,Healthy,52,154976
+P001,Laptop,Electronics,China,Shenzhen,Supplier B,2024-02-18,114,39,31,106,91,202,3,7,Healthy,64,21412
+P003,Tablet,Electronics,USA,Los Angeles,Supplier A,2024-02-19,69,18,62,113,56,928,7,7,Healthy,19,104864
+P004,Monitor,Electronics,USA,New York,Supplier B,2024-02-20,146,28,74,192,92,761,12,9,Healthy,58,146112
+P001,Laptop,Electronics,USA,Los Angeles,Supplier B,2024-02-21,225,51,37,211,64,720,10,10,Healthy,49,151920
+P002,Phone,Electronics,Thailand,Bangkok,Supplier B,2024-02-22,232,39,55,248,98,503,8,8,Healthy,67,124744
+P002,Phone,Electronics,USA,New York,Supplier A,2024-02-23,50,11,23,62,62,693,15,6,Low,34,42966
+P005,Keyboard,Electronics,China,Shanghai,Supplier B,2024-02-24,97,53,40,84,76,1056,14,5,Healthy,50,88704
+P002,Phone,Electronics,Thailand,Bangkok,Supplier A,2024-02-25,190,36,55,209,73,1484,5,3,Healthy,29,310156
+P002,Phone,Electronics,China,Shanghai,Supplier B,2024-02-26,115,14,45,146,67,647,14,4,Healthy,57,94462
+P002,Phone,Electronics,China,Shanghai,Supplier C,2024-02-27,296,11,25,310,90,247,6,1,Healthy,44,76570
+P003,Tablet,Electronics,Thailand,Bangkok,Supplier B,2024-02-28,213,25,13,201,72,135,10,3,Healthy,14,27135
+P004,Monitor,Electronics,Thailand,Bangkok,Supplier A,2024-02-29,136,15,3,124,84,1032,15,9,Healthy,47,127968
+P003,Tablet,Electronics,India,Mumbai,Supplier A,2024-03-01,239,34,79,284,83,213,4,7,Healthy,29,60492
+P003,Tablet,Electronics,China,Shenzhen,Supplier A,2024-03-02,275,10,67,332,74,714,6,5,Healthy,43,237048
+P002,Phone,Electronics,USA,Los Angeles,Supplier A,2024-03-03,128,29,41,140,79,1217,4,1,Healthy,11,170380
+P002,Phone,Electronics,Germany,Berlin,Supplier B,2024-03-04,112,15,20,117,47,1065,13,0,Healthy,28,124605
+P001,Laptop,Electronics,Germany,Berlin,Supplier B,2024-03-05,141,55,36,122,76,523,11,1,Healthy,57,63806
+P005,Keyboard,Electronics,Thailand,Bangkok,Supplier B,2024-03-06,192,51,36,177,67,1057,9,6,Healthy,68,187089
+P002,Phone,Electronics,India,Mumbai,Supplier C,2024-03-07,271,16,34,289,89,813,13,10,Healthy,46,234957
+P002,Phone,Electronics,China,Shenzhen,Supplier A,2024-03-08,291,38,51,304,74,430,11,0,Healthy,60,130720
+P004,Monitor,Electronics,China,Shenzhen,Supplier C,2024-03-09,54,37,58,75,58,1216,8,0,Healthy,70,91200
+P001,Laptop,Electronics,Thailand,Chiang Mai,Supplier C,2024-03-10,184,24,32,192,79,1474,8,9,Healthy,45,283008
+P005,Keyboard,Electronics,Germany,Berlin,Supplier C,2024-03-11,245,48,44,241,74,345,13,3,Healthy,52,83145
+P005,Keyboard,Electronics,USA,Los Angeles,Supplier C,2024-03-12,266,24,17,259,84,673,7,1,Healthy,50,174307
+P002,Phone,Electronics,USA,New York,Supplier A,2024-03-13,53,26,79,106,61,818,4,4,Healthy,25,86708
+P003,Tablet,Electronics,Germany,Berlin,Supplier B,2024-03-14,81,36,27,72,56,535,6,9,Healthy,12,38520
+P003,Tablet,Electronics,China,Shanghai,Supplier A,2024-03-15,192,26,46,212,40,729,10,4,Healthy,20,154548
+P003,Tablet,Electronics,Thailand,Chiang Mai,Supplier B,2024-03-16,196,39,56,213,75,170,11,1,Healthy,69,36210
+P003,Tablet,Electronics,USA,New York,Supplier B,2024-03-17,228,12,40,256,64,151,5,2,Healthy,68,38656
+P004,Monitor,Electronics,Germany,Munich,Supplier A,2024-03-18,55,37,28,46,89,1061,2,10,Low,22,48806
+P004,Monitor,Electronics,Thailand,Chiang Mai,Supplier B,2024-03-19,249,55,11,205,63,781,13,10,Healthy,64,160105
+P003,Tablet,Electronics,China,Shanghai,Supplier A,2024-03-20,139,18,23,144,86,196,15,0,Healthy,49,28224
+P004,Monitor,Electronics,USA,Los Angeles,Supplier A,2024-03-21,208,20,75,263,55,1197,5,6,Healthy,28,314811
+P001,Laptop,Electronics,China,Shanghai,Supplier B,2024-03-22,246,19,36,263,43,1212,14,8,Healthy,69,318756
+P004,Monitor,Electronics,India,Mumbai,Supplier A,2024-03-23,260,19,78,319,60,305,7,0,Healthy,10,97295
+P004,Monitor,Electronics,USA,Los Angeles,Supplier C,2024-03-24,106,17,37,126,57,1078,5,8,Healthy,36,135828
+P001,Laptop,Electronics,Thailand,Chiang Mai,Supplier C,2024-03-25,299,9,28,318,92,1189,3,7,Healthy,51,378102
+P005,Keyboard,Electronics,Thailand,Bangkok,Supplier A,2024-03-26,161,16,63,208,70,1346,13,8,Healthy,35,279968
+P005,Keyboard,Electronics,India,Delhi,Supplier C,2024-03-27,77,14,4,67,52,894,13,9,Healthy,40,59898
+P001,Laptop,Electronics,Thailand,Chiang Mai,Supplier C,2024-03-28,184,20,60,224,95,950,4,5,Healthy,44,212800
+P005,Keyboard,Electronics,USA,Los Angeles,Supplier B,2024-03-29,258,31,14,241,60,101,12,9,Healthy,58,24341
+P001,Laptop,Electronics,USA,Los Angeles,Supplier A,2024-03-30,276,29,2,249,63,621,15,4,Healthy,44,154629
+P001,Laptop,Electronics,Thailand,Chiang Mai,Supplier A,2024-03-31,100,50,9,59,41,1259,13,6,Healthy,20,74281
+P003,Tablet,Electronics,Germany,Munich,Supplier B,2024-04-01,215,40,70,245,63,1497,12,3,Healthy,29,366765
+P003,Tablet,Electronics,Thailand,Bangkok,Supplier B,2024-04-02,186,28,34,192,99,644,4,10,Healthy,54,123648
+P005,Keyboard,Electronics,India,Delhi,Supplier A,2024-04-03,269,22,35,282,99,817,10,6,Healthy,29,230394
+P005,Keyboard,Electronics,China,Shenzhen,Supplier B,2024-04-04,92,11,20,101,96,929,2,1,Healthy,64,93829
+P004,Monitor,Electronics,Germany,Berlin,Supplier C,2024-04-05,286,41,48,293,65,1325,5,2,Healthy,65,388225
+P004,Monitor,Electronics,USA,New York,Supplier A,2024-04-06,96,28,2,70,97,696,10,5,Low,68,48720
+P003,Tablet,Electronics,Thailand,Bangkok,Supplier C,2024-04-07,82,7,26,101,42,1064,9,10,Healthy,65,107464
+P003,Tablet,Electronics,USA,New York,Supplier B,2024-04-08,62,16,24,70,65,410,9,10,Healthy,56,28700
+P002,Phone,Electronics,India,Mumbai,Supplier C,2024-04-09,207,32,51,226,47,381,5,3,Healthy,29,86106
+P001,Laptop,Electronics,China,Shanghai,Supplier C,2024-04-10,91,46,74,119,62,1337,3,8,Healthy,56,159103
+P003,Tablet,Electronics,India,Delhi,Supplier A,2024-04-11,231,8,38,261,50,551,12,0,Healthy,46,143811
+P005,Keyboard,Electronics,Germany,Munich,Supplier C,2024-04-12,120,56,69,133,77,122,6,6,Healthy,47,16226
+P003,Tablet,Electronics,USA,Los Angeles,Supplier C,2024-04-13,131,10,38,159,53,742,5,3,Healthy,13,117978
+P003,Tablet,Electronics,India,Delhi,Supplier C,2024-04-14,103,40,34,97,79,273,11,8,Healthy,59,26481
+P001,Laptop,Electronics,Thailand,Bangkok,Supplier A,2024-04-15,174,9,2,167,47,1420,3,3,Healthy,12,237140
+P001,Laptop,Electronics,China,Shanghai,Supplier A,2024-04-16,76,25,21,72,71,664,8,5,Healthy,13,47808
+P001,Laptop,Electronics,Germany,Berlin,Supplier A,2024-04-17,124,8,62,178,100,1226,5,4,Healthy,40,218228
+P002,Phone,Electronics,India,Delhi,Supplier A,2024-04-18,235,17,30,248,66,976,4,0,Healthy,14,242048
+P004,Monitor,Electronics,Germany,Berlin,Supplier B,2024-04-19,134,48,49,135,69,988,14,5,Healthy,51,133380
+P003,Tablet,Electronics,China,Shanghai,Supplier C,2024-04-20,236,30,67,273,48,1487,10,4,Healthy,67,405951
+P002,Phone,Electronics,Thailand,Chiang Mai,Supplier C,2024-04-21,193,10,58,241,100,728,3,10,Healthy,10,175448
+P001,Laptop,Electronics,India,Delhi,Supplier B,2024-04-22,111,9,38,140,77,97,15,4,Healthy,70,13580
+P001,Laptop,Electronics,USA,Los Angeles,Supplier A,2024-04-23,204,37,77,244,75,1309,15,6,Healthy,54,319396
+P001,Laptop,Electronics,Thailand,Bangkok,Supplier C,2024-04-24,115,7,77,185,40,940,14,7,Healthy,40,173900
+P002,Phone,Electronics,Thailand,Chiang Mai,Supplier A,2024-04-25,184,36,10,158,100,159,12,8,Healthy,19,25122
+P005,Keyboard,Electronics,Germany,Munich,Supplier C,2024-04-26,147,43,27,131,44,1230,14,4,Healthy,50,161130
+P004,Monitor,Electronics,USA,Los Angeles,Supplier A,2024-04-27,131,35,66,162,71,546,14,3,Healthy,38,88452
+P004,Monitor,Electronics,USA,Los Angeles,Supplier A,2024-04-28,184,25,77,236,49,409,6,4,Healthy,68,96524
+P003,Tablet,Electronics,Germany,Berlin,Supplier C,2024-04-29,201,44,70,227,97,322,14,5,Healthy,23,73094
+P003,Tablet,Electronics,USA,Los Angeles,Supplier A,2024-01-01,61,25,28,64,58,121,10,9,Healthy,53,7744
+P003,Tablet,Electronics,Germany,Munich,Supplier C,2024-01-02,264,56,50,258,70,1222,15,0,Healthy,10,315276
+P002,Phone,Electronics,China,Shenzhen,Supplier C,2024-01-03,127,5,25,147,62,315,14,6,Healthy,38,46305
+P005,Keyboard,Electronics,Thailand,Chiang Mai,Supplier A,2024-01-04,269,46,57,280,44,1120,7,1,Healthy,12,313600
+P002,Phone,Electronics,India,Mumbai,Supplier A,2024-01-05,214,51,70,233,83,474,9,0,Healthy,53,110442
+P003,Tablet,Electronics,China,Shenzhen,Supplier A,2024-01-06,90,13,0,77,54,1496,7,8,Healthy,62,115192
+P003,Tablet,Electronics,USA,Los Angeles,Supplier B,2024-01-07,225,53,16,188,61,1287,2,4,Healthy,20,241956
+P002,Phone,Electronics,India,Delhi,Supplier A,2024-01-08,183,30,1,154,76,189,3,2,Healthy,30,29106
+P001,Laptop,Electronics,USA,New York,Supplier B,2024-01-09,237,23,49,263,73,1380,2,8,Healthy,30,362940
+P003,Tablet,Electronics,China,Shanghai,Supplier C,2024-01-10,266,54,21,233,94,1060,2,0,Healthy,44,246980
+P004,Monitor,Electronics,USA,New York,Supplier C,2024-01-11,72,44,57,85,77,52,15,5,Healthy,61,4420
+P004,Monitor,Electronics,India,Mumbai,Supplier A,2024-01-12,274,44,8,238,68,344,5,3,Healthy,15,81872
+P001,Laptop,Electronics,Germany,Berlin,Supplier A,2024-01-13,225,16,30,239,48,1103,4,9,Healthy,13,263617
+P001,Laptop,Electronics,Germany,Munich,Supplier B,2024-01-14,122,39,7,90,60,1236,10,5,Healthy,37,111240
+P004,Monitor,Electronics,China,Shanghai,Supplier B,2024-01-15,150,24,47,173,59,1184,11,0,Healthy,62,204832
+P005,Keyboard,Electronics,China,Shenzhen,Supplier B,2024-01-16,266,17,49,298,98,1038,13,3,Healthy,29,309324
+P003,Tablet,Electronics,USA,New York,Supplier A,2024-01-17,135,41,50,144,51,107,3,1,Healthy,63,15408
+P004,Monitor,Electronics,India,Delhi,Supplier B,2024-01-18,299,57,35,277,45,174,7,5,Healthy,49,48198
+P001,Laptop,Electronics,India,Delhi,Supplier A,2024-01-19,255,22,22,255,42,638,3,2,Healthy,16,162690
+P003,Tablet,Electronics,China,Shenzhen,Supplier C,2024-01-20,173,55,40,158,93,442,9,8,Healthy,10,69836
